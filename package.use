@@ -1,0 +1,67 @@
+# RHMD
+# Realist Hyperland Minimal Desktop LTO & GPO version 2024
+# Only Wayland Hyperland Minimal Desktop no (Xwayland)
+# package.use file -> /etc/portage/package.use
+# (c) 2024
+
+# APP-ARCH
+app-arch/xz-utils pgo
+
+# APP-CRYPT
+app-crypt/gcr gtk
+
+# APP-MISC
+app-misc/mc -slang unicode sftp
+
+# DEV-LANG
+dev-lang/python pgo
+
+# GUI-APPS
+gui-apps/rofi-wayland drun windowmode
+gui-apps/waybar pulseaudio udev network tray upower wifi evdev
+gui-apps/wlogout zsh-completions
+
+# GUI-LIBS
+gui-libs/wlroots -tinywl -11-backend
+
+# MEDIA-FONTS
+media-fonts/terminus-font -ru-g
+
+# MEDIA-LIBS
+#media-libs/libepoxy X
+#media-libs/libglvnd X
+#media-libs/libsdl2 gles2 X
+#media-libs/libvpx postproc
+#media-libs/mesa X
+#media-libs/vulkan-loader X
+#media-libs/gegl cairo
+
+# MEDIA-PLUGINS
+media-plugins/audacious-plugins nls pipewire cdda cue ffmpeg flac http lame libnotify modplug mp3 opus sndfile wavpack
+
+# MEDIA-VIDEO
+media-video/ffmpeg modplug mp3 opus pulseaudio svg v4l openh264 libv4l webp x264 x265 xvid
+media-video/mpv cdda dvd jpeg
+media-video/pipewire sound-server v4l
+
+# SYS-BOOT
+sys-boot/grub mount
+
+# SYS-DEVEL
+sys-devel/binutils pgo
+sys-devel/gcc graphite lto pgo
+
+# SYS-KERNEL
+sys-kernel/linux-firmware initramfs
+sys-kernel/zen-sources symlink
+
+# WWW-CLIENT
+www-client/firefox lto pgo pulseaudio
+
+# X11-LIBS
+#x11-libs/cairo X
+#x11-libs/gtk+ X
+#x11-libs/libdrm video_cards_radeon
+#x11-libs/libfm gtk exif udisks
+#x11-libs/libxkbcommon X
+#x11-libs/pango X

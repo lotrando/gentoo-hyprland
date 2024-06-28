@@ -1,0 +1,36 @@
+# RHMD
+# Realist Hyperland Minimal Desktop LTO & GPO version 2024
+# Only Wayland Hyperland Minimal Desktop no (Xwayland)
+# package.accept_keywords file -> /etc/portage/package.accept_keywords
+# (c) 2024
+
+# APP-MISC
+#app-misc/ca-certificates ~amd64
+
+# APP-SHELLS
+app-shells/oh-my-zsh ~amd64
+app-shells/zsh-autosuggestions ~amd64
+app-shells/zsh-syntax-highlighting ~amd64
+
+# DEV-UTIL
+dev-util/rocm-smi ~amd64
+
+# GUI-APPS
+gui-apps/hyprpaper ~amd64
+gui-apps/hyprpicker ~amd64
+gui-apps/rofi-wayland ~amd64
+gui-apps/waybar ~amd64
+gui-apps/wlogout ~amd64
+
+# GUI-LIBS
+gui-libs/xdg-desktop-portal-hyprland ~amd64
+
+# GUI-WM
+gui-wm/hyprland-contrib ~amd64
+
+# MEDIA-VIDEO
+media-video/pipewire ~amd64
+media-video/wireplumber ~amd64
+
+# SYS-KERNEL
+sys-kernel/zen-sources ~amd64

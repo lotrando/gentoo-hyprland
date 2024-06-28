@@ -1,0 +1,8 @@
+# RHMD
+# Realist Hyperland Minimal Desktop LTO & GPO version
+# Only Wayland Hyperland Minimal Desktop no (Xwayland)
+# package.license file -> /etc/portage/package.license
+# (c) 2024
+
+# SYS-KERNEL
+sys-kernel/linux-firmware linux-fw-redistributable no-source-code

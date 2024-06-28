@@ -1,0 +1,5 @@
+# RHMD
+# Realist Hyperland Minimal Desktop LTO & GPO version
+# Only Wayland Hyperland Minimal Desktop no (Xwayland)
+# package.mask file -> /etc/portage/package.mask
+# (c) 2024
